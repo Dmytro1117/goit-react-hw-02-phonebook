@@ -18,9 +18,9 @@ export const ContactList = ({ contacts, deleteContact }) => (
   </ul>
 );
 
-ContactList.propTypes = {
-  name: PropTypes.string.isRequired,
-  number: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
-  deleteContact: PropTypes.func.isRequired,
-};
+// ContactList.propTypes = {
+//   name: PropTypes.string.isRequired,
+//   number: PropTypes.string.isRequired,
+//   id: PropTypes.string.isRequired,
+//   deleteContact: PropTypes.func.isRequired,
+// };
