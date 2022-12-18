@@ -51,9 +51,9 @@ export class App extends Component {
   render() {
     return (
       <section>
-        <h1>Phonebook</h1>
+        <h1>Phonebook:</h1>
         <ContactForm onSendForApp={this.handlerFromForm} />
-        <h1>Contact</h1>
+        <h1>Contacts:</h1>
         <Filter
           text={this.state.filter}
           filterInput={this.handlerFindContact}
