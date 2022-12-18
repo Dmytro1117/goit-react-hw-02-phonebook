@@ -10,16 +10,20 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  min-width: 350px;
+  margin-bottom: 8px;
+ 
 }
 
 p {
   font-size: 20px;
   font-weight: 500;
-  margin-right: 30px;
+  margin: 0;
 }
 
 li > button {
-  width: 85px;
+  
+  width: 60px;
   font-size: 15px;
   font-weight: 700;
   color: white;
@@ -31,5 +35,5 @@ li > button {
 }
 
 li > button:hover {
-  /* transform: scale(1.05); */
+  transform: scale(1.05);
 }

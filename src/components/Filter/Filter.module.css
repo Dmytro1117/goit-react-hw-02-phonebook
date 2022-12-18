@@ -4,12 +4,3 @@ label {
   align-items: center;
 }
 
-label > input {
-  margin: 0;
-}
-
-.spanFind {
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 5px;
-}
